@@ -10,6 +10,19 @@ using System.Text;
 //version 2.1.4 update: Takes most of code from if userChoioe ==1 and adds it into a method.
 //version 2.1.5 update: improves code further and removes 1x set cursor method
 
+
+/*
+ * objects to add to improve boggle:-
+ * 1.ErrorHandling class
+ * 2.Divide up into classes
+ * 3.Introduce enums
+ * 4.Read from strings correctly + output to text file? Probably not
+ * 5.Store words entered + repeat them back to user
+ * 6.Look up different search methods. E.g bubble search
+ * 7.Investigate integration of 2d array
+ * 8.Lookup/work out algorithm for solving 2d array. Make computer find words in grid.
+ * */
+
 namespace Boggle_boggles_back
 {
     class Program
@@ -33,6 +46,9 @@ namespace Boggle_boggles_back
         static int topP = 0;//top value array reference
         static int dieArrayLetter; //this is the updated number used, to load it to the correct position in the array
         static int dieBoardPosition;
+        //below is my error handling method.
+        static ErrorHandling.exceptionEncounteredHandling errorHandler = new ErrorHandling.exceptionEncounteredHandling();
+
 
         static void printBoggle()
         {
@@ -99,11 +115,14 @@ namespace Boggle_boggles_back
                     wordFile.Close();
                 }
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                Console.WriteLine("The following error occured while attempting to read the file: " + e.Message);
+                Console.WriteLine("The following error occured while attempting to read the file: " + ex.Message);
                 Console.WriteLine("No words have been read from the file");
                 wordListCount = 0;
+                errorHandler.handleErrors(ex.Message.ToString());
+                
+
             }
         }//method which loads words from a .txt file into an array of 80k
 
