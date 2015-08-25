@@ -21,6 +21,7 @@ using System.Text;
  * 6.Look up different search methods. E.g bubble search
  * 7.Investigate integration of 2d array
  * 8.Lookup/work out algorithm for solving 2d array. Make computer find words in grid.
+ * 9.Create second m,
  * */
 
 namespace Boggle_boggles_back
