@@ -3,3 +3,8 @@ C:\Users\dmc\Desktop\GitHubStuff\Boggle_boggles_back\Boggle_boggles_back\bin\Deb
 C:\Users\dmc\Desktop\GitHubStuff\Boggle_boggles_back\Boggle_boggles_back\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\dmc\Desktop\GitHubStuff\Boggle_boggles_back\Boggle_boggles_back\obj\Debug\Boggle_boggles_back.exe
 C:\Users\dmc\Desktop\GitHubStuff\Boggle_boggles_back\Boggle_boggles_back\obj\Debug\Boggle_boggles_back.pdb
+C:\Users\DMC\Desktop\GitHubStuff\Boggle_boggles_back\obj\Debug\Boggle_boggles_back.exe
+C:\Users\DMC\Desktop\GitHubStuff\Boggle_boggles_back\obj\Debug\Boggle_boggles_back.pdb
+C:\Users\DMC\Desktop\GitHubStuff\Boggle_boggles_back\bin\Debug\Boggle_boggles_back.exe
+C:\Users\DMC\Desktop\GitHubStuff\Boggle_boggles_back\bin\Debug\Boggle_boggles_back.pdb
+C:\Users\DMC\Desktop\GitHubStuff\Boggle_boggles_back\obj\Debug\ResolveAssemblyReference.cache
